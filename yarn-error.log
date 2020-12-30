@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/nathan/.nvm/versions/node/v10.17.0/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/opt/llvm/bin:/Users/nathan/.cargo/bin:/usr/local/Cellar/pyenv-virtualenv/1.1.5/shims:/Users/nathan/.pyenv/shims:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/nathan/.nvm/versions/node/v10.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/opt/ImageMagick/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nathan/LocalCoinSwap/curve-failing-example/package.json: Unexpected token } in JSON at position 587
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "defi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "codeforcer <nathancworsley@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.11.1",
+      "@babel/node": "^7.10.5",
+      "@babel/preset-env": "^7.11.0",
+      "jest": "^26.4.0"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "dependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.0",
+      "@nomiclabs/hardhat-waffle": "^2.0.0",
+      "chai": "^4.2.0",
+      "dotenv": "^8.2.0",
+      "ethereum-waffle": "^3.0.0",
+      "ethers": "^5.0.0",
+      "fs": "^0.0.1-security",
+      "hardhat": "^2.0.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
